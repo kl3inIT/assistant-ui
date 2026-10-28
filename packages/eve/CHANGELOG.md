@@ -1,5 +1,13 @@
 # @assistant-ui/eve
 
+## 0.0.25
+
+### Patch Changes
+
+- [#10154](https://github.com/assistant-ui/assistant-ui/pull/10154) [`89c962c`](https://github.com/assistant-ui/assistant-ui/commit/89c962ca366a90cf6492bcb5dddac3b72a015679) - feat: support eve 0.84 and require it as the peer. the runtime reads eve's top level `messages`, answers interactions with `Answer`, and forwards `baseUrl`, `followWhile`, and `followAgents`; eve 0.83 and earlier stay on the previous release. tool parts now carry eve's interaction under `providerMetadata.eve.interaction` instead of `providerMetadata.eve.inputRequest`. ([@okisdev](https://github.com/okisdev))
+- Updated dependencies [[`becf077`](https://github.com/assistant-ui/assistant-ui/commit/becf0772bbb53f9a1f03b23b7eee15401c6380a9), [`2dc77cf`](https://github.com/assistant-ui/assistant-ui/commit/2dc77cf77810d7d512783323989b2f2c345e032b)]:
+  - @assistant-ui/core@0.3.33
+
 ## 0.0.24
 
 ### Patch Changes

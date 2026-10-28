@@ -1,5 +1,13 @@
 # @assistant-ui/react-ag-ui
 
+## 0.1.2
+
+### Patch Changes
+
+- [#10156](https://github.com/assistant-ui/assistant-ui/pull/10156) [`2dc77cf`](https://github.com/assistant-ui/assistant-ui/commit/2dc77cf77810d7d512783323989b2f2c345e032b) - Send file parts with `sourceType: "id"` as AG-UI file sources instead of inline bytes, preserving provider handles through snapshot round trips. A file source in a `MESSAGES_SNAPSHOT` user message now also imports as an attachment, so the handle stays visible in the thread. ([@clean99](https://github.com/clean99))
+- Updated dependencies [[`becf077`](https://github.com/assistant-ui/assistant-ui/commit/becf0772bbb53f9a1f03b23b7eee15401c6380a9), [`2dc77cf`](https://github.com/assistant-ui/assistant-ui/commit/2dc77cf77810d7d512783323989b2f2c345e032b)]:
+  - @assistant-ui/core@0.3.33
+
 ## 0.1.1
 
 ### Patch Changes

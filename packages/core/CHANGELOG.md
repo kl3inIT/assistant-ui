@@ -1,5 +1,13 @@
 # @assistant-ui/core
 
+## 0.3.33
+
+### Patch Changes
+
+- [#10165](https://github.com/assistant-ui/assistant-ui/pull/10165) [`becf077`](https://github.com/assistant-ui/assistant-ui/commit/becf0772bbb53f9a1f03b23b7eee15401c6380a9) - Wait for the initialized thread state to commit before resolving `initialize()`. ([@rupic-app](https://github.com/apps/rupic-app))
+
+- [#10156](https://github.com/assistant-ui/assistant-ui/pull/10156) [`2dc77cf`](https://github.com/assistant-ui/assistant-ui/commit/2dc77cf77810d7d512783323989b2f2c345e032b) - Send file parts with `sourceType: "id"` as AG-UI file sources instead of inline bytes, preserving provider handles through snapshot round trips. A file source in a `MESSAGES_SNAPSHOT` user message now also imports as an attachment, so the handle stays visible in the thread. ([@clean99](https://github.com/clean99))
+
 ## 0.3.32
 
 ### Patch Changes
